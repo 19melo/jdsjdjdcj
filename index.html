@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Aplicación Web</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <style>
+        /* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos específicos para el contenido principal */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.parrafo1{
+    font-size:48px;
+    margin-top:-50px;
+}
+.titulo1{
+    font-size:70px;
+    margin-top:-22px;
+}
+.nav2 {
+    background-color: #333;
+    width: 220px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.cuadros{
+    position: fixed;
+    top: 82%;
+    left: 40%;
+    transform: translate(-5%, -300%);
+}
+.nav1 {
+    background-color: #333;
+    width: 220px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+
+  
+}
+
+.menu-horizontal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-horizontal li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-horizontal a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.parrafo2{
+    text-align:center;
+    font-size:30px;
+    margin-top:-50px;
+}
+.boton-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-volver:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Aplicación Web</h1>
+    </header>
+    <section>
+        <h2 class="titulo1">ACERCA DE</h2>
+        <p class="parrafo1">Esta plataforma en linea muestra datos
+            relacionados con medidas de tendencia central, los cuales fueron
+        obtenidos  mediante una encuesta en los programas educativos de la UTTT,en relación al genero; su objetivo es presentar  informacion precisa y actualizada.</p> <br>
+        <p class="parrafo2">Inicia sesion o crea una cuenta para ver mas informacion</p><br><br>
+        <br>
+        <br><br>
+        <div class="cuadros">
+            <nav class="menu-horizontal">
+                <ul>
+                    <li class="nav1"><a href="/templates/crear_sesion.html">CREAR CUENTA</a></li>
+                    <li class="nav2"><a href="/templates/iniciar_sesion.html">INICIAR SESION</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <footer>
+        <p>Mi Aplicación Web - © 2023</p>
+    </footer>
+</body>
+</html>
